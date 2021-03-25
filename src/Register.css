@@ -1,0 +1,36 @@
+.register,
+.login {
+  width: 80%;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.input-field input {
+  width: 100%;
+}
+
+.input-field label {
+  font-weight: 700;
+  font-style: italic;
+}
+.input-field input {
+  padding: 5px;
+  border: 5px;
+  margin: 5px 0;
+  background-color: #f5f7fa;
+}
+
+.input-field input:focus {
+  outline: none;
+}
+
+.red-text {
+  width: 100%;
+  color: brown;
+  font-size: 13px;
+  border-radius: 0 0 5px 5px;
+}
